@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Header from './header';
+import Clock from './clock';
 import Footer from './footer';
 import reportWebVitals from './reportWebVitals';
 
