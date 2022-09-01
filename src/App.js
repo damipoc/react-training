@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from './clock';
-import Name from './functionHook';
+import Name from './username';
+import TextHide from './readMore';
 
 function App() {
 
@@ -14,8 +15,10 @@ function App() {
   return (
     <div className="App">
       <p>Hello {address.name}, your address is {address.address} and zipcode is {address.zip}</p>
-      <Clock/>
-      <Name/>
+      <Clock />
+      <Name />
+      <br></br>
+      <TextHide text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."} maxLength={5} />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import amogus from './132.webp';
 
 
 const footer = () => {
@@ -6,7 +6,7 @@ const footer = () => {
         <footer>
             <p>Made by Damian Poclitar</p>
             <p><a href="mailto:poclitardamian@gmail.com">poclitardamian@gmail.com</a></p>
-            <img alt="logo" src = {logo} width = "100px" height = "100px"></img>
+            <img alt="logo" src = {amogus} width = "100px" height = "100px"></img>
         </footer>
     );
 }
