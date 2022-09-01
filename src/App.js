@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from './clock';
+import Name from './functionHook';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <p>Hello {address.name}, your address is {address.address} and zipcode is {address.zip}</p>
       <Clock/>
+      <Name/>
     </div>
   );
 }

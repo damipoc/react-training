@@ -21,18 +21,18 @@ export default class Clock extends Component {
         this.timerID = setInterval(() => this.tick(), 1000);
     }
     componentWillUpdate() {
-        console.log("componentWillUpdate sets the time as :" + this.state.date);
+        // console.log("componentWillUpdate sets the time as :" + this.state.date);
     }
     componentWillUnmount() {
         console.log("componentWillUnmount sets the time as :" + this.state.date);
         clearInterval(this.timerID)
     }
     shouldComponentUpdate() {
-        console.log("shouldComponentUpdate sets the time as :" + this.state.date);
+        // console.log("shouldComponentUpdate sets the time as :" + this.state.date);
         return this.state.boolForShould;
     }
     componentDidUpdate() {
-        console.log("componentDidUpdate set the time as :" + this.state.date);
+        // console.log("componentDidUpdate set the time as :" + this.state.date);
     }
 
     tick() {
