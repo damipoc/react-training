@@ -3,6 +3,7 @@ import './App.css';
 import Clock from './clock';
 import Name from './username';
 import TextHide from './readMore';
+import Backlog from './backlog';
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
       <Name />
       <br></br>
       <TextHide text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."} maxLength={5} />
+      <br></br>
+      <br></br>
+      <Backlog />
     </div>
   );
 }
