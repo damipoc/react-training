@@ -6,17 +6,17 @@ const Backlog = () => {
     const itemBacklog = [
         {
             id: 1,
-            item: "Aitem1",
+            item: "Abcd",
             price: 4.99
         },
         {
             id: 2,
-            item: "Bitem2",
+            item: "Bcde",
             price: 2.99
         },
         {
             id: 3,
-            item: "Citem3",
+            item: "Cdef",
             price: 1.99
         }
     ];
@@ -53,7 +53,9 @@ const Backlog = () => {
                     </li>
                 ))
             ) : (
-                <span>No items found</span>
+                <li>
+                    <span>No items found</span>
+                </li>
             )}
         </div>
     )
